@@ -215,7 +215,7 @@ class BoletoTest extends TestCase
             'aceite'                 => $this->aceite(),
             'especieDoc'             => 'DM',
         ]);
-        $this->assertThat($boleto->toArray(), (new IsType(IsType::TYPE_ARRAY)));
+        $this->assertIsArray($boleto->toArray());
         $this->assertNotNull($boleto->renderHTML());
         $this->assertNotNull($boleto->renderPDF());
     }
@@ -239,7 +239,7 @@ class BoletoTest extends TestCase
             'aceite'                 => $this->aceite(),
             'especieDoc'             => 'DM',
         ]);
-        $this->assertThat($boleto->toArray(), (new IsType(IsType::TYPE_ARRAY)));
+        $this->assertIsArray($boleto->toArray());
         $this->assertNotNull($boleto->renderHTML());
         $this->assertNotNull($boleto->renderPDF());
     }
@@ -265,7 +265,7 @@ class BoletoTest extends TestCase
             'aceite'                 => $this->aceite(),
             'especieDoc'             => 'DM',
         ]);
-        $this->assertThat($boleto->toArray(), (new IsType(IsType::TYPE_ARRAY)));
+        $this->assertIsArray($boleto->toArray());
         $this->assertNotNull($boleto->renderHTML());
         $this->assertNotNull($boleto->renderPDF());
     }
@@ -291,7 +291,7 @@ class BoletoTest extends TestCase
             'agencia'                => '0001',
             'conta'                  => '7654321',
         ]);
-        $this->assertThat($boleto->toArray(), (new IsType(IsType::TYPE_ARRAY)));
+        $this->assertIsArray($boleto->toArray());
         $this->assertNotNull($boleto->renderHTML());
         $this->assertNotNull($boleto->renderPDF());
     }
@@ -318,7 +318,7 @@ class BoletoTest extends TestCase
             'aceite'                 => $this->aceite(),
             'especieDoc'             => 'DM',
         ]);
-        $this->assertThat($boleto->toArray(), (new IsType(IsType::TYPE_ARRAY)));
+        $this->assertIsArray($boleto->toArray());
         $this->assertNotNull($boleto->renderHTML());
         $this->assertNotNull($boleto->renderPDF());
     }
@@ -345,7 +345,7 @@ class BoletoTest extends TestCase
             'aceite'                 => $this->aceite(),
             'especieDoc'             => 'DM',
         ]);
-        $this->assertThat($boleto->toArray(), (new IsType(IsType::TYPE_ARRAY)));
+        $this->assertIsArray($boleto->toArray());
         $this->assertNotNull($boleto->renderHTML());
         $this->assertNotNull($boleto->renderPDF());
     }
@@ -372,7 +372,7 @@ class BoletoTest extends TestCase
             'aceite'                 => $this->aceite(),
             'especieDoc'             => 'DM',
         ]);
-        $this->assertThat($boleto->toArray(), (new IsType(IsType::TYPE_ARRAY)));
+        $this->assertIsArray($boleto->toArray());
         $this->assertNotNull($boleto->renderHTML());
         $this->assertNotNull($boleto->renderPDF());
     }
@@ -398,7 +398,7 @@ class BoletoTest extends TestCase
             'aceite'                 => $this->aceite(),
             'especieDoc'             => 'DM',
         ]);
-        $this->assertThat($boleto->toArray(), (new IsType(IsType::TYPE_ARRAY)));
+        $this->assertIsArray($boleto->toArray());
         $this->assertNotNull($boleto->renderHTML());
         $this->assertNotNull($boleto->renderPDF());
     }
@@ -424,7 +424,7 @@ class BoletoTest extends TestCase
             'aceite'                 => $this->aceite(),
             'especieDoc'             => 'DM',
         ]);
-        $this->assertThat($boleto->toArray(), (new IsType(IsType::TYPE_ARRAY)));
+        $this->assertIsArray($boleto->toArray());
         $this->assertNotNull($boleto->renderHTML());
         $this->assertNotNull($boleto->renderPDF());
     }
@@ -451,7 +451,7 @@ class BoletoTest extends TestCase
             'aceite'                 => 'S',
             'especieDoc'             => 'DM',
         ]);
-        $this->assertThat($boleto->toArray(), (new IsType(IsType::TYPE_ARRAY)));
+        $this->assertIsArray($boleto->toArray());
         $this->assertNotNull($boleto->renderHTML());
         $this->assertNotNull($boleto->renderPDF());
     }
@@ -478,7 +478,7 @@ class BoletoTest extends TestCase
             'aceite'                 => 'S',
             'especieDoc'             => 'DM',
         ]);
-        $this->assertThat($boleto->toArray(), (new IsType(IsType::TYPE_ARRAY)));
+        $this->assertIsArray($boleto->toArray());
         $this->assertNotNull($boleto->renderHTML());
         $this->assertNotNull($boleto->renderPDF());
     }
@@ -504,7 +504,7 @@ class BoletoTest extends TestCase
             'aceite'                 => 'S',
             'especieDoc'             => 'DM',
         ]);
-        $this->assertThat($boleto->toArray(), (new IsType(IsType::TYPE_ARRAY)));
+        $this->assertIsArray($boleto->toArray());
         $this->assertNotNull($boleto->renderHTML());
         $this->assertNotNull($boleto->renderPDF());
     }
@@ -531,7 +531,7 @@ class BoletoTest extends TestCase
             'aceite'                 => 'N',
             'especieDoc'             => 'DM',
         ]);
-        $this->assertThat($boleto->toArray(), (new IsType(IsType::TYPE_ARRAY)));
+        $this->assertIsArray($boleto->toArray());
         $this->assertNotNull($boleto->renderHTML());
         $this->assertNotNull($boleto->renderPDF());
     }
@@ -558,7 +558,7 @@ class BoletoTest extends TestCase
             'aceite'                 => 'N',
             'especieDoc'             => 'DM',
         ]);
-        $this->assertThat($boleto->toArray(), (new IsType(IsType::TYPE_ARRAY)));
+        $this->assertIsArray($boleto->toArray());
         $this->assertNotNull($boleto->renderHTML());
         $this->assertNotNull($boleto->renderPDF());
     }
@@ -583,7 +583,7 @@ class BoletoTest extends TestCase
             'aceite'                 => $this->aceite(),
             'especieDoc'             => 'DM',
         ]);
-        $this->assertThat($boleto->toArray(), (new IsType(IsType::TYPE_ARRAY)));
+        $this->assertIsArray($boleto->toArray());
         $this->assertNotNull($boleto->renderHTML());
         $this->assertNotNull($boleto->renderPDF());
     }
@@ -609,7 +609,7 @@ class BoletoTest extends TestCase
             'aceite'                 => 'N',
             'especieDoc'             => 'DM',
         ]);
-        $this->assertThat($boleto->toArray(), (new IsType(IsType::TYPE_ARRAY)));
+        $this->assertIsArray($boleto->toArray());
         $this->assertNotNull($boleto->renderHTML());
         $this->assertNotNull($boleto->renderPDF());
     }
@@ -637,7 +637,7 @@ class BoletoTest extends TestCase
 
         $boletoHtml = $boleto->renderHTML();
 
-        $this->assertThat($boleto->toArray(), (new IsType(IsType::TYPE_ARRAY)));
+        $this->assertIsArray($boleto->toArray());
         $this->assertNotNull($boletoHtml);
         $this->assertNotNull($boleto->renderPDF());
     }
@@ -665,7 +665,7 @@ class BoletoTest extends TestCase
 
         $boletoHtml = $boleto->renderHTML();
 
-        $this->assertThat($boleto->toArray(), (new IsType(IsType::TYPE_ARRAY)));
+        $this->assertIsArray($boleto->toArray());
         $this->assertNotNull($boletoHtml);
         $this->assertNotNull($boleto->renderPDF());
     }
@@ -697,7 +697,7 @@ class BoletoTest extends TestCase
 
         $boletoHtml = $boleto->renderHTML();
 
-        $this->assertThat($boleto->toArray(), (new IsType(IsType::TYPE_ARRAY)));
+        $this->assertIsArray($boleto->toArray());
         $this->assertNotNull($boletoHtml);
         $this->assertNotNull($boleto->renderPDF());
     }
@@ -725,7 +725,7 @@ class BoletoTest extends TestCase
 
         $boletoHtml = $boleto->renderHTML();
 
-        $this->assertThat($boleto->toArray(), (new IsType(IsType::TYPE_ARRAY)));
+        $this->assertIsArray($boleto->toArray());
         $this->assertNotNull($boletoHtml);
         $this->assertNotNull($boleto->renderPDF());
     }
@@ -786,7 +786,7 @@ class BoletoTest extends TestCase
 
         $boletoHtml = $boleto->renderHTML();
 
-        $this->assertThat($boleto->toArray(), (new IsType(IsType::TYPE_ARRAY)));
+        $this->assertIsArray($boleto->toArray());
         $this->assertNotNull($boletoHtml);
         $this->assertNotNull($boleto->renderPDF());
     }
@@ -818,7 +818,7 @@ class BoletoTest extends TestCase
 
         $boletoHtml = $boleto->renderHTML();
 
-        $this->assertThat($boleto->toArray(), (new IsType(IsType::TYPE_ARRAY)));
+        $this->assertIsArray($boleto->toArray());
         $this->assertNotNull($boletoHtml);
         $this->assertNotNull($boleto->renderPDF());
     }
@@ -876,7 +876,7 @@ class BoletoTest extends TestCase
 //
 //        $boletoHtml = $boleto->renderHTML();
 //
-//        $this->assertThat($boleto->toArray(), (new IsType(IsType::TYPE_ARRAY)));
+//        $this->assertIsArray($boleto->toArray());
 //        $this->assertNotNull($boletoHtml);
 //        $this->assertNotNull($boleto->renderPDF());
 //    }
@@ -904,7 +904,7 @@ class BoletoTest extends TestCase
             'aceite'                 => 'S',
             'especieDoc'             => 'DM',
         ]);
-        $this->assertThat($boleto->toArray(), (new IsType(IsType::TYPE_ARRAY)));
+        $this->assertIsArray($boleto->toArray());
         $this->assertNotNull($boleto->renderHTML());
         $this->assertNotNull($boleto->renderPDF());
     }
@@ -934,7 +934,7 @@ class BoletoTest extends TestCase
             'tipoJuro'               => 'VALOR_DIARIO',
             'tipoMulta'              => 'VALOR_FIXO',
         ]);
-        $this->assertThat($boleto->toAPI(), (new IsType(IsType::TYPE_ARRAY)));
+        $this->assertIsArray($boleto->toAPI());
 
         $this->assertEquals($boleto->toAPI(), [
             'seuNumero'  => $boleto->getNumero(),
